@@ -1,0 +1,1 @@
+import React from 'react'; import './ProgressBar.css'; export default function ProgressBar({value}){return <div className="progress-wrap" role="progressbar" aria-label="Progresso do questionário" aria-valuenow={value} aria-valuemin="0" aria-valuemax="100"><div className="progress-track"><span style={{width:`${value}%`}}/></div><small>{value}%</small></div>}

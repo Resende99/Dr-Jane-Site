@@ -1,0 +1,1 @@
+import React from 'react'; import { MessageCircle } from 'lucide-react'; import './WhatsAppButton.css'; export default function WhatsAppButton({href}){return <a className="wa-button" href={href} target="_blank" rel="noreferrer" aria-label="Agendar avaliação com a Dra. Jane pelo WhatsApp"><MessageCircle size={19}/><span>Agendar avaliação</span></a>}
